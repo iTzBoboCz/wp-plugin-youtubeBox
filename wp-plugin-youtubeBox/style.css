@@ -1,0 +1,53 @@
+#youtube_box_inputs button, input {
+  margin: 5px;
+  margin-left: 0;
+}
+
+#youtube_box_page table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+
+#youtube_box_page table thead td,
+#youtube_box_page table thead th {
+  border: 2px solid #353b48;
+}
+
+#youtube_box_page table tbody td {
+  border: 2px solid #718093;
+}
+
+#youtube_box_page table {
+  text-align: center;
+}
+
+#youtube_box_page table thead td,
+#youtube_box_page table thead th {
+  color: white;
+}
+
+#youtube_box_page table thead tr:first-of-type td {
+  background-color: #353b48;
+  font-weight: bold;
+  color: white;
+}
+
+#youtube_box_page table thead tr:nth-of-type(2) th {
+  background-color: #718093;
+}
+
+#youtube_box_page tr:nth-of-type(even) td {
+  background-color: #fff;
+}
+
+#youtube_box_page tr:nth-of-type(odd) td {
+  background-color: #f4f4f4;
+}
+
+#youtube_box_page td {
+  font-size: 15px;
+  padding: 10px 5px;
+}
